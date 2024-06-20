@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'eudoxus';
+    src: url(Website_1\Eudoxus Sans Font\eudoxus_sans_medium.ttf);
+}
+
 *{
     margin: 0;
     padding: 0;
@@ -8,15 +13,16 @@ body{
     background-image: url(pokemon_go_image.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    font-family: 'eudoxus';
 }
 
 .logo{
     width: 100px;
     background-position: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 nav{
     background-color: #022c64;
+    backdrop-filter: blur(0);
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
 }
 
